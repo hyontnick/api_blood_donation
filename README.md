@@ -43,7 +43,7 @@ Bienvenue dans le dépôt de l’**API de Prédiction d’Éligibilité au Don d
 ### Installation
 1. **Cloner le Dépôt** :
    ```bash
-   git clone https://github.com/ton-username/mon-api.git
+   git clone https://github.com/hyontnick/api_blood_donation.git
    cd mon-api
    ```
 
@@ -98,19 +98,6 @@ Réponse attendue :
   - `eligibility_model_rf_no_leak.pkl`, `scaler_no_leak.pkl` : Fichiers du modèle et scaler.
 - **Limites** : Sur le tier gratuit de Render, l’API passe en sommeil après 15 min d’inactivité.
 
-Pour toute question, ouvrez une issue ou contactez [ton-email@example.com].
-
----
-
-### Instructions
-1. Crée un fichier `README.md` dans ton dépôt `mon-api`.
-2. Copie-colle ce contenu.
-3. Remplace `https://github.com/ton-username/mon-api.git` par l’URL de ton dépôt et `[hyontnick@gmail.com]` par ton email.
-4. Pousse sur GitHub :
-   ```bash
-   git add README.md
-   git commit -m "Ajout du README pour l’API"
-   git push origin main
-   ```
+Pour toute question, ouvrez une issue ou contactez [hyontnick@gmail.com].
 
 ---
