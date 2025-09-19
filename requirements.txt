@@ -4,3 +4,4 @@ pandas
 joblib
 pydantic
 requests
+scikit-learn==1.5.2
