@@ -101,7 +101,12 @@ async def predict_eligibility(input_data: PredictionInput):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.getenv("PORT", 8000))  # Fallback à 8004 pour tests locaux
+    uvicorn.run(app, host="0.0.0.0", port=port)
+    
+#if __name__ == "__main__":
+#    import uvicorn
+#    uvicorn.run(app, host="0.0.0.0", port=8000)
 
 # lib a installer avant : pip install fastapi uvicorn requests '#1E88E5'
 # Démarrer avec : uvicorn api:app --reload 
